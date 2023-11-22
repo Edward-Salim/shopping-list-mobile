@@ -68,7 +68,7 @@ class _LoginPageState extends State<LoginPage> {
 
                 // Cek kredensial
                 final response = await request.login(
-                    "http://edward-salim-tutorial.pbp.cs.ui.ac.id/auth/login/",
+                    "http://127.0.0.1:8000/auth/login/",
                     {
                       'username': username,
                       'password': password,
